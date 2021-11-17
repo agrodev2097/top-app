@@ -4,6 +4,7 @@ import { Button, Htag, Input, P, Rating, Tag } from '../components';
 import { withLayout } from '../layout/Layout';
 import axios from 'axios';
 import { MenuItem } from '../interfaces/menu.interface';
+import { TextArea } from '../components/TextArea/TextArea';
 
 
 function Home({ menu, firstCategory }: HomeProps): JSX.Element {
@@ -23,6 +24,7 @@ function Home({ menu, firstCategory }: HomeProps): JSX.Element {
 			<Tag color='primary'>primary</Tag>
 			<Rating rating={rating} isEditable setRating={setRating} />
 			<Input placeholder='test' />
+			<TextArea placeholder='test2' />
 
 		</>
 	);
