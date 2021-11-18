@@ -10,3 +10,5 @@ export * from './Sort/Sort';
 export * from './Input/Input';
 export * from './TextArea/TextArea';
 export * from './Search/Search';
+export * from './Product/Product';
+export * from './Divider/Divider';

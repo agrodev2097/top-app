@@ -1,4 +1,5 @@
 export interface ProductCharacteristic {
+	map(arg0: (c: any) => JSX.Element): import("react").ReactNode;
 	value: string;
 	name: string;
 }
@@ -31,5 +32,6 @@ export interface ProductModel {
 	reviews: ReviewModal[];
 	reviewCount: number;
 	reviewAvg?: number;
-	advantages: string;
+	advantages?: string;
+	disadvantages?: string;
 }
